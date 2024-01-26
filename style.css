@@ -1,0 +1,132 @@
+/* reset css */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* common */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* section 1: hero */
+#hero {
+    background: #F5FCFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 32px;
+}
+
+#cta {
+    padding: 8px 16px;
+    background-color: #5E3BEE;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* section 2: resume */
+.education-container {
+    background-color: #F5FCFF;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.education-title {
+    font-size: 24px;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+
+.item {
+    margin-bottom: 32px;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* section 3: portfolio */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.portfolio-item {
+    width: 200px;
+    padding-bottom: 16px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+
+.portfolio-title {
+    padding: 0 16px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.portfolio-summary {
+    padding: 0 16px;
+}
+
+/* section 4: contact */
+.input-container {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    width: 100%;
+    border: 1px solid #5E3BEE;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.btn-wrapper {
+    text-align: center;
+}
+
+button {
+    outline: none;
+    padding: 8px 16px;
+    background-color: #5E3BEE;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+
+/* section 5: footer */
+#footer {
+    background-color: #F5FCFF;
+}
